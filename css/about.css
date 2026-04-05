@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+header h1{
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #9ce1e9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.brand {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+}
+
+
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 50px;
+}
+
+.about-hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+
+.about-content {
+    padding: 60px 0;
+}
+
+.about-grid {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: justify;
+}
+.team {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: #a5e7de;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    padding:40px;
+    text-align:center;
+    background:#111;
+    color:#ffffff;
+}
+
